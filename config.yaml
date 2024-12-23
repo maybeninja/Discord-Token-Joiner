@@ -1,0 +1,11 @@
+ProxyMode:
+ Enable: False # Proxy Support Coming Soon
+ Proxy: 
+
+Delay: 2
+Threads: 1
+
+CaptchaSolver:
+ Enable: False # Captcha Support Coming Soon
+ Service: ""
+ API: ""
