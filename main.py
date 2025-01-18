@@ -168,3 +168,6 @@ Github: maybeninja
 
     j = Joiner()
     j.start(invite=invite, thread_limit=threads)
+    t = f"Asta Token Joiner | Success: {success} | Failed: {failed} | Captcha: {captcha} | Total: {success + failed}"
+    print(t)
+    input()
